@@ -1,14 +1,15 @@
 <template>
-  <Wency />
+  <div>导航栏 | 
+    <router-link to="/">首页</router-link> | 
+    <router-link to="/Wency">Wency</router-link>
+  </div>
+  <hr/>
+  <router-view></router-view>
 </template>
 
 <script>
-import Wency from './components/Wency.vue'
 
 export default {
-  name: 'App',
-  components: {
-    Wency: Wency
-  }
+  name: 'App'
 }
 </script>
