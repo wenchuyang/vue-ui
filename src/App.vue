@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <Wency />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Wency from './components/Wency.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Wency: Wency
   }
 }
 </script>
