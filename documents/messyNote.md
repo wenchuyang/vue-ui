@@ -21,8 +21,8 @@ App.vue
 <style>
 
 component 新建
-模板提示插件： vue 3 snippets
-插件名/标签大小写最好一致，但是不一致也没有问题
+
+组件名/标签大小写最好一致，但是不一致也没有问题
 
 
 
@@ -51,14 +51,7 @@ const router = createRouter({
 typescript只能理解.ts文件，不能理解.vue文件
 创建xxx.d.ts，告诉ts如何理解.vue文件。文件最好放到src下。shims-vue.d.ts, 文件名无所谓，后缀要正确*
 
-- 初始化vue-router
--  新建history对象
--  新建router对象
--  app.use(router) // const app = createApp(App) app.use(router) app.mount('#app')
--  添加<router-view> // App.vue里边不用直接引用<HelloWorld>,也不用引用，使用<router-view />进行路由的转换
-添加组件  添加路由，path和component
--  添加<router-link>
-<router-link to="/">根目录</router-link>  类似于a标签，来做导航
+
 
 
 
